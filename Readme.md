@@ -23,7 +23,7 @@ O DOM se aplica na criação de **páginas dinâmicas e interativas**. Com ele, 
 a. getElementById();  
 b. getElementsByTagName();  
 
-[Veja a resolução aqui](URL_DA_RESOLUÇÃO_2)
+[Veja a resolução aqui]((https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q02_pt1.html))
 
 ---
 
