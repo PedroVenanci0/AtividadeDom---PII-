@@ -23,15 +23,15 @@ O DOM se aplica na criação de **páginas dinâmicas e interativas**. Com ele, 
 a. getElementById();  
 b. getElementsByTagName();  
 
-[Veja a resolução.PT-01 aqui]((https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q02_pt1.html))
+[Veja a resolução.PT-01 aqui](https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q02_pt1.html)
 
-[Veja a resolução.PT-01 aqui]((https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q02_pt2.html))
+[Veja a resolução.PT-01 aqui](https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q02_pt2.html)
 
 ---
 
 ## 3) Crie um código que conte o número de parágrafos dentro de uma div e exiba o resultado em uma outra div.
 
-[Veja a resolução aqui]((https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q03.html))
+[Veja a resolução aqui](https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q03.html)
 
 ---
 
