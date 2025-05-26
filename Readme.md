@@ -23,69 +23,81 @@ O DOM se aplica na criação de **páginas dinâmicas e interativas**. Com ele, 
 a. getElementById();  
 b. getElementsByTagName();  
 
-[Veja a resolução aqui]((https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q02_pt1.html))
+[Veja a resolução.PT-01 aqui]((https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q02_pt1.html))
+
+[Veja a resolução.PT-01 aqui]((https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q02_pt2.html))
 
 ---
 
 ## 3) Crie um código que conte o número de parágrafos dentro de uma div e exiba o resultado em uma outra div.
 
-[Veja a resolução aqui](URL_DA_RESOLUÇÃO_3)
+[Veja a resolução aqui]((https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q03.html))
 
 ---
 
 ## 4) Considere o exemplo abaixo da página html e um script externo, bem como sua versão em TypeScript:  
 Crie um segundo botão chamado “limpar” que limpe o conteúdo do texto do parágrafo.  
 
-[Veja a resolução aqui](URL_DA_RESOLUÇÃO_4)
+[Veja a resolução aqui](https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q04.html)
 
 ---
 
 ## 5) Qual a diferença entre as propriedades textContent, innerText e innerHTML dos elementos HTML? Cite exemplos.
 
-[Veja a resolução aqui](URL_DA_RESOLUÇÃO_5)
+1. textContent
+
+[Veja a resolução aqui](https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q05_pt1.html)
+
+2. innerText
+
+[Veja a resolução aqui](https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q05_pt2.html)
+
+3. innerHTML
+
+[Veja a resolução aqui](https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q05_pt3.html)
 
 ---
 
 ## 6) Crie um exemplo em que uma propriedade CSS de um elemento HTML é alterada via DOM baseada na documentação da página:  
 https://www.w3schools.com/js/js_htmldom_css.asp  
 
-[Veja a resolução aqui](URL_DA_RESOLUÇÃO_6)
+[Veja a resolução aqui](https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q06.html)
 
 ---
 
 ## 7) Criar um código que copie o conteúdo de uma caixa de texto para outra só que em caixa alta.
 
-[Veja a resolução aqui](URL_DA_RESOLUÇÃO_7)
+[Veja a resolução aqui](https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q07.html)
 
 ---
 
 ## 8) Cria código que tenha botão de alto contraste que alterne a cor de fundo do body para preto e cor do texto para branco. Adicionalmente, crie um botão para resetar as cores originais.
 
-[Veja a resolução aqui](URL_DA_RESOLUÇÃO_8)
+[Veja a resolução aqui](https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q08.html)
 
 ---
 
 ## 9) Crie um script acionado por botões que aumentem o tamanho do texto de toda a página e outro que faça o contrário.
 
-[Veja a resolução aqui](URL_DA_RESOLUÇÃO_9)
+[Veja a resolução aqui](https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q09.html)
 
 ---
 
 ## 10) Crie uma pequena calculadora com as 4 operações. A operação deve ser selecionada de botões de radio. Para isso, teste a propriedade selected para descobrir qual operação está selecionada.
 
-[Veja a resolução aqui](URL_DA_RESOLUÇÃO_10)
+[Veja a resolução aqui](https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q10.html)
 
 ---
 
 ## 11) Pesquise como criar elementos e adicione o conteúdo de uma caixa de texto em uma lista não ordenada.
 
-[Veja a resolução aqui](URL_DA_RESOLUÇÃO_11)
+[Veja a resolução aqui](https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q11.html)
 
 ---
 
 ## 12) Repita o exercício anterior adicionando o conteúdo da caixa de texto em um elemento de um select.
 
-[Veja a resolução aqui](URL_DA_RESOLUÇÃO_12)
+[Veja a resolução aqui](https://github.com/PedroVenanci0/AtividadeDom---PII-/blob/main/Questões/Q12.html)
 
 
 
