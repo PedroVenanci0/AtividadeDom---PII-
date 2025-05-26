@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora Simples</title>
+</head>
+<body>
+
+  <h1>Calculadora</h1>
+
+  <input type="number" id="num1" placeholder="Número 1">
+  <input type="number" id="num2" placeholder="Número 2">
+
+  <br><br>
+
+  <input type="radio" name="operacao" value="soma" checked> Soma
+  <input type="radio" name="operacao" value="subtracao"> Subtração
+  <input type="radio" name="operacao" value="multiplicacao"> Multiplicação
+  <input type="radio" name="operacao" value="divisao"> Divisão
+
+  <br><br>
+
+  <button onclick="calcular()">Calcular</button>
+
+  <p id="resultado">Resultado: </p>
+
+  <script>
+    function calcular() {
+      var n1 = parseFloat(document.getElementById("num1").value);
+      var n2 = parseFloat(document.getElementById("num2").value);
+
+      var operacoes = document.getElementsByName("operacao");
+      var operacaoSelecionada;
+
+      for (var i = 0; i < operacoes.length; i++) {
+        if (operacoes[i].checked) {
+          operacaoSelecionada = operacoes[i].value;
+          break;
+        }
+      }
+
+      var resultado;
+
+      if (operacaoSelecionada === "soma") {
+        resultado = n1 + n2;
+      } else if (operacaoSelecionada === "subtracao") {
+        resultado = n1 - n2;
+      } else if (operacaoSelecionada === "multiplicacao") {
+        resultado = n1 * n2;
+      } else if (operacaoSelecionada === "divisao") {
+        if (n2 !== 0) {
+          resultado = n1 / n2;
+        } else {
+          resultado = "Erro: divisão por zero!";
+        }
+      }
+
+      document.getElementById("resultado").innerText = "Resultado: " + resultado;
+    }
+  </script>
+
+</body>
+</html>

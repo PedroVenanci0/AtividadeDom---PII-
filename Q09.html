@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aumentar e Diminuir Texto</title>
+  <style>
+    body {
+      font-size: 16px; /* Tamanho inicial */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Controle de Tamanho do Texto</h1>
+  <p>Este é um exemplo de como alterar o tamanho do texto da página via DOM.</p>
+
+  <button onclick="aumentarTexto()">Aumentar Texto</button>
+  <button onclick="diminuirTexto()">Diminuir Texto</button>
+
+  <script>
+    var tamanhoFonte = 16; // tamanho inicial em pixels
+
+    function aumentarTexto() {
+      tamanhoFonte += 2;
+      document.body.style.fontSize = tamanhoFonte + "px";
+    }
+
+    function diminuirTexto() {
+      if (tamanhoFonte > 8) { // limite mínimo para evitar tamanho muito pequeno
+        tamanhoFonte -= 2;
+        document.body.style.fontSize = tamanhoFonte + "px";
+      }
+    }
+  </script>
+
+</body>
+</html>

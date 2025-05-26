@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo de uso do DOM</title>
+  <script>
+    // Função para alterar o texto do parágrafo
+    function alterarTexto() {
+      var paragrafo = document.getElementById("paragrafo");
+      paragrafo.textContent = "O texto deste parágrafo foi alterado!";
+    }
+
+    // Função para limpar o texto do parágrafo
+    function limparTexto() {
+      var paragrafo = document.getElementById("paragrafo");
+      paragrafo.textContent = "";
+    }
+  </script>
+</head>
+<body>
+
+  <h1>Exemplo de uso do DOM</h1>
+  
+  <p id="paragrafo">Clique no botão abaixo para alterar o texto deste parágrafo:</p>
+  
+  <button onclick="alterarTexto()">Clique aqui</button>
+  <button onclick="limparTexto()">Limpar</button>
+
+</body>
+</html>

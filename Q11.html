@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Adicionar à Lista</title>
+</head>
+<body>
+
+    <input type="text" id="texto">
+    <button onclick="adicionarNaLista()">Adicionar</button>
+
+    <ul id="lista"></ul>
+
+    <script>
+        function adicionarNaLista() {
+            // Pega o valor da caixa de texto
+            var texto = document.getElementById("texto").value;
+            
+            // Cria um novo elemento <li>
+            var novoItem = document.createElement("li");
+            
+            // Define o conteúdo do novo <li>
+            novoItem.textContent = texto;
+            
+            // Adiciona o <li> à lista não ordenada <ul>
+            document.getElementById("lista").appendChild(novoItem);
+            
+            // Limpa a caixa de texto
+            document.getElementById("texto").value = "";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Adicionar ao Select</title>
+</head>
+<body>
+
+    <input type="text" id="texto">
+    <button onclick="adicionarNoSelect()">Adicionar</button>
+
+    <select id="selecao"></select>
+
+    <script>
+        function adicionarNoSelect() {
+            // Pega o valor da caixa de texto
+            var texto = document.getElementById("texto").value;
+            
+            // Cria um novo elemento <option>
+            var novaOpcao = document.createElement("option");
+            
+            // Define o conteúdo da opção
+            novaOpcao.textContent = texto;
+            novaOpcao.value = texto;  // opcional: define o value
+            
+            // Adiciona a opção ao select
+            document.getElementById("selecao").appendChild(novaOpcao);
+            
+            // Limpa a caixa de texto
+            document.getElementById("texto").value = "";
+        }
+    </script>
+
+</body>
+</html>

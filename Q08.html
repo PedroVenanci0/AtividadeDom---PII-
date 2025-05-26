@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alto Contraste</title>
+</head>
+<body>
+
+  <h1>Modo Alto Contraste</h1>
+  <p>Este é um exemplo de alteração de tema via DOM.</p>
+
+  <button onclick="ativarContraste()">Ativar Alto Contraste</button>
+  <button onclick="resetarCores()">Resetar Cores</button>
+
+  <script>
+    function ativarContraste() {
+      document.body.style.backgroundColor = "black";
+      document.body.style.color = "white";
+    }
+
+    function resetarCores() {
+      document.body.style.backgroundColor = "white";
+      document.body.style.color = "black";
+    }
+  </script>
+
+</body>
+</html>

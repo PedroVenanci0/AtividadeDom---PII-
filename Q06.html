@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alterar Estilo com JavaScript</title>
+  <style>
+    #meuParagrafo {
+      background-color: lightgray;
+      padding: 10px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+
+  <p id="meuParagrafo">Este é um parágrafo com fundo cinza claro.</p>
+  <button onclick="mudarCor()">Mudar Cor de Fundo</button>
+
+  <script>
+    function mudarCor() {
+      var paragrafo = document.getElementById("meuParagrafo");
+      paragrafo.style.backgroundColor = "lightblue";
+    }
+  </script>
+
+</body>
+</html>
